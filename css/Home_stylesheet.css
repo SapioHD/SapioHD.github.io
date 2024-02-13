@@ -1,0 +1,91 @@
+body {
+	background-image: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=pexels-johannes-plenio-1103970.jpg&fm=jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+
+
+.sidebarC{
+	
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	max-width: 170px;
+	align-items: baseline;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom-right-radius: 100px;
+	background-color: black;
+	z-index: 1;
+	
+}
+
+
+.itemI{
+	
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 10px;
+	margin-bottom: 40px;
+	color: transparent;
+	z-index: 1;
+	
+}
+
+.titleC{
+	
+	display: flex;
+	flex-direction: row ;
+	background-color: black;
+	justify-content: center;
+	z-index: 1;
+}
+
+.title-nameI{
+	width: 35%;
+	margin-top: 5px;
+	background-color: black;
+	margin-bottom: 14px;
+	margin-top: 14px;
+	z-index: 1;
+}
+
+.sidebarbutton{
+	
+	color: aliceblue;
+	margin-top: 50px;
+	margin-left: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	padding-bottom: 1fr;
+	z-index: 1;
+	
+}
+
+.sidebarbutton:hover {
+	cursor: pointer;
+	transition: 0.5s;
+	text-shadow: rgba(252,252,252,1) 0px 0px 42px;
+
+}
+
+.itemI:hover{
+	cursor: pointer;
+	transition: 0.5s;
+	text-shadow: rgba(252,252,252,1) 0px 0px 42px;
+
+}
+
+.sidebarC:hover .itemI{
+	color: aliceblue;
+	cursor: pointer;
+	transition: 0.7s;
+	margin-right: 100px
+
+}
