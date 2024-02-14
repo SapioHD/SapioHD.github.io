@@ -33,8 +33,14 @@ body {
 	margin-left: 10px;
 	margin-bottom: 40px;
 	color: transparent;
-	z-index: 2;
+	z-index: 1;
+	text-decoration: underline transparent;
 }
+
+.itemI:visited{
+	text-decoration: underline transparent;
+}
+
 
 .titleC{
 	
@@ -323,4 +329,14 @@ body {
   
   .carousel::after {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+  }
+
+  .Bild1{
+    width: 100%;
+    height: auto;
+  }
+  
+  .Bild2{
+    width:100%;
+    height: inherit;
   }

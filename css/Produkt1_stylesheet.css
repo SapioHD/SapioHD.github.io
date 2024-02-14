@@ -33,8 +33,14 @@ body {
 	margin-left: 10px;
 	margin-bottom: 40px;
 	color: transparent;
-	z-index: 2;
+	z-index: 1;
+	text-decoration: underline transparent;
 }
+
+.itemI:visited{
+	text-decoration: underline transparent;
+}
+
 
 .titleC{
 	
@@ -329,3 +335,13 @@ body {
     margin: 0;
     padding: 0;
     }
+
+.Bild1{
+  width: 100%;
+  height: auto;
+}
+
+.Bild2{
+  width:100%;
+  height: inherit;
+}

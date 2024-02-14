@@ -117,8 +117,9 @@ body {
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
 
-
 }
+
+
 
 
 
@@ -131,6 +132,7 @@ body {
 
 .producttext{
 	padding-left: 10px;
+	
 }
 
 .spaceholder{
@@ -189,9 +191,15 @@ body {
 
 .product:hover{
   cursor: pointer;
-  transition: 1.5s;
+  transition: 0.7s;
   background-color:#b9e2f5;
   color: #363434;
+  
+	.producttext{
+		color: #363434;
+		transition: 1.5s;
+		
+	}
 
 }
 
